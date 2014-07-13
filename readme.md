@@ -47,3 +47,8 @@ An old version was based on a dark background, which featured blue and green as 
 Screenshots
 ===========
 <sub>(font: Liberation Mono 10pt)</sub>
+
+![c++ syntax with 2 buffers,
+tagbar and quickfix window](/screenshots/syntax_cpp.jpg?raw=true "c++ syntax")
+
+![Vim syntax with 2 buffers](/screenshots/syntax_vim.jpg?raw=true "vim syntax")
