@@ -48,9 +48,25 @@ Screenshots
 ===========
 <sub>(font: Liberation Mono 10pt)</sub>
 
+The Airline theme is named kalisi as well and already included in bling/vim-airline. Just add this to your vimrc, if you like my airline theme: 
+
+    let g:airline_theme='kalisi'
+
 ## C/C++
 
 ![c++ syntax with 2 buffers, tagbar and quickfix window](/screenshots/syntax_cpp.jpg?raw=true "c++ syntax")
+
+## HTML
+
+#### Django
+![HTML syntax including Django template code](/screenshots/syntax_htmldjango.jpg?raw=true "htmldjango syntax")
+
+#### JavaScript (embedded)
+![HTML syntax including embedded JavaScript code](/screenshots/syntax_htmljavascript.jpg?raw=true "htmljavascript syntax")
+
+## Python
+
+![Python syntax](/screenshots/syntax_python.jpg?raw=true "python syntax")
 
 ## Vim
 
