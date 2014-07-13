@@ -48,7 +48,10 @@ Screenshots
 ===========
 <sub>(font: Liberation Mono 10pt)</sub>
 
-![c++ syntax with 2 buffers,
-tagbar and quickfix window](/screenshots/syntax_cpp.jpg?raw=true "c++ syntax")
+## C/C++
+
+![c++ syntax with 2 buffers, tagbar and quickfix window](/screenshots/syntax_cpp.jpg?raw=true "c++ syntax")
+
+## Vim
 
 ![Vim syntax with 2 buffers](/screenshots/syntax_vim.jpg?raw=true "vim syntax")
