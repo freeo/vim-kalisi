@@ -2,7 +2,7 @@ Colorscheme: kalisi.vim
 =========================
 An elegant, light, full-color scheme for *neo*vim.
 
-Currently in its 5th iteration (version: 0.5), specially refined for contesting as the *default light* colorscheme for the **neovim** project.
+Currently in its 5th iteration (version: 0.6), specially refined for contesting as the *default* colorscheme for the **neovim** project.
 
 The colorscheme is *optimized* for the following languages (more to come):
 
@@ -18,12 +18,10 @@ Most important were: blackboard, github, molokai, pyte and winter.
 
 Suggestions for improving support for other languages are welcome!
 
+It contains two themes, one for each background setting (*light* and *dark*).  The default colorscheme is *light*, as per Vim original setting, if you don't set the background manually.
 
 
-*Note*: The source is currently quite messy (unordered) due to lots of recent changes.
 
-*Future*:
-An old version was based on a dark background, which featured blue and green as its main colors as well. I will remake it in the near future to cover all highlighting groups, which the light theme already does.
 
 <sup>Not licensed yet (Apache 2.0 like neovim?!)</sup>
 
@@ -36,6 +34,9 @@ An old version was based on a dark background, which featured blue and green as 
         Bundle 'https://github.com/freeo/vim-kalisi'   
 
         colorscheme kalisi
+        set background=light
+        " or 
+        set background=dark
 
 
 2. Run
@@ -54,20 +55,25 @@ The Airline theme is named kalisi as well and already included in bling/vim-airl
 
 ## C/C++
 
-![c++ syntax with 2 buffers, tagbar and quickfix window](/screenshots/syntax_cpp.jpg?raw=true "c++ syntax")
+![light c++ syntax with 2 buffers, tagbar and quickfix window](/screenshots/syntax_cpp.jpg?raw=true "c++ syntax light")
+
+![dark c++ syntax with 2 buffers, tagbar and quickfix window](/screenshots/kalisi_cpp.jpg?raw=true "c++ syntax dark")
 
 ## HTML
 
 #### Django
-![HTML syntax including Django template code](/screenshots/syntax_htmldjango.jpg?raw=true "htmldjango syntax")
+
+![HTML syntax including Django template code](/screenshots/kalisi_django.jpg?raw=true "htmldjango syntax")
 
 #### JavaScript (embedded)
-![HTML syntax including embedded JavaScript code](/screenshots/syntax_htmljavascript.jpg?raw=true "htmljavascript syntax")
+![HTML syntax including embedded JavaScript code](/screenshots/kalisi_javascript.jpg?raw=true "htmljavascript syntax")
 
 ## Python
 
-![Python syntax](/screenshots/syntax_python.jpg?raw=true "python syntax")
+![Python syntax](/screenshots/kalisi_python.jpg?raw=true "python syntax")
 
 ## Vim
 
-![Vim syntax with 2 buffers](/screenshots/syntax_vim.jpg?raw=true "vim syntax")
+![Light Vim syntax with 2 buffers](/screenshots/syntax_vim.jpg?raw=true "vim syntax light")
+
+![Dark Vim syntax with 2 buffers](/screenshots/kalisi_vim.jpg?raw=true "vim syntax dark")
