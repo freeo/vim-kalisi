@@ -1,6 +1,6 @@
 Colorscheme: kalisi.vim
 =========================
-An elegant, light, full-color scheme for *neo*vim.
+An elegant, full-color scheme for *neo*vim.
 
 Currently in its 5th iteration (version: 0.6), specially refined for contesting as the *default* colorscheme for the **neovim** project.
 
