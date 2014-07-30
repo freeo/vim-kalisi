@@ -77,3 +77,8 @@ The Airline theme is named kalisi as well and already included in bling/vim-airl
 ![Light Vim syntax with 2 buffers](/screenshots/syntax_vim.jpg?raw=true "vim syntax light")
 
 ![Dark Vim syntax with 2 buffers](/screenshots/kalisi_vim.jpg?raw=true "vim syntax dark")
+
+## syntax.txt
+
+![syntax.txt overview](/screenshots/syntax_overview.jpg?raw=true "syntax.txt
+overview")
