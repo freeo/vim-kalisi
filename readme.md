@@ -85,6 +85,6 @@ overview")
 
 ## diff
 
-![diff colors, light and dark theme](/screenshots/kalisi_diff?raw=true "diff colors, light and dark theme")
+![diff colors, light and dark theme](/screenshots/kalisi_diff.jpg?raw=true "diff colors, light and dark theme")
 
 
