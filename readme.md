@@ -122,4 +122,15 @@ Suggestions for improving support for other programming languages and plugins ar
 It contains two themes, one for each background setting (*light* and *dark*).
 The default colorscheme is *light*, as is Vims default setting, if you don't set the background manually.
 
+<<<<<<< HEAD
 Following the **neovim** project, this colorscheme is licensed under the Apache 2.0 license.
+=======
+![syntax.txt overview](/screenshots/syntax_overview.jpg?raw=true "syntax.txt
+overview")
+
+## diff
+
+![diff colors, light and dark theme](/screenshots/kalisi_diff.jpg?raw=true "diff colors, light and dark theme")
+
+
+>>>>>>> a2deb511b9b04e8feb0e01a2a004b32d778db203
