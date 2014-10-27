@@ -29,39 +29,56 @@ The airline theme is named *kalisi* as well and already included in bling/vim-ai
 ## Dark Kalisi
 
 ### Python
+![screenshot](http://i.imgur.com/HI62CaB.png)
 
 ### Vim
+![screenshot](http://i.imgur.com/GscTOvy.png)
 
 ### C/C++
+![screenshot](http://i.imgur.com/NYXywVP.png)
 
 ###  HTML
 
 #### Django
+![screenshot](http://i.imgur.com/vOcHmsr.png)
 
 #### JavaScript (embedded)
+![screenshot](http://i.imgur.com/Nq0Lh5p.png)
 
 ### diff
+![screenshot](http://i.imgur.com/xHMOr8B.png)
 
 ### syntax.txt
+![screenshot](http://i.imgur.com/Zs4vSng.png)
+![screenshot](http://i.imgur.com/Psiyz6x.jpg)
+
+
+
 
 ## Light Kalisi
 
 ### Python
+![screenshot](http://i.imgur.com/2ZShtop.png)
 
 ### Vim
+![screenshot](http://i.imgur.com/qjfmA1E.png)
 
 ### C/C++
+![screenshot](http://i.imgur.com/5HnbclI.png)
 
 ###  HTML
-
 #### Django
+![screenshot](http://i.imgur.com/nO3eedm.png)
 
 #### JavaScript (embedded)
+![screenshot](http://i.imgur.com/iWpYKmu.png)
 
 ### diff
+![screenshot](http://i.imgur.com/lR88CIH.png)
 
 ### syntax.txt
-
+![screenshot](http://i.imgur.com/0IDr3RM.png)
+![screenshot](http://i.imgur.com/WrmEZfS.jpg)
 
 ## Installation
 
