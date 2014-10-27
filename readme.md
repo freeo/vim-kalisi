@@ -71,7 +71,7 @@ The airline theme is named *kalisi* as well and already included in bling/vim-ai
 ![screenshot](http://i.imgur.com/nO3eedm.png)
 
 #### JavaScript (embedded)
-![screenshot](http://i.imgur.com/iWpYKmu.png)
+![screenshot](http://i.imgur.com/oBl3tjc.png)
 
 ### diff
 ![screenshot](http://i.imgur.com/lR88CIH.png)
