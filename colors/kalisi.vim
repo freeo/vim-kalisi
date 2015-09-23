@@ -5,7 +5,7 @@
 " Author:         Arthur Jaron
 " EMail:          hifreeo@gmail.com
 " Version:        0.7.0
-" Last Change:    27.10.2014 
+" Last Change:    27.10.2014
 "
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
@@ -27,13 +27,13 @@ if &background == "dark"
   hi CommentEmail     guifg=#6090c0 guibg=NONE     gui=underline
 
   hi Constant 	      guifg=#94be54                   gui=bold
-  hi String 	      guifg=#ffc63f                 
+  hi String 	      guifg=#ffc63f
   hi Character        guifg=#c85bff
   hi Number           guifg=#ffad3f
   hi Boolean 	      guifg=#94be54
   hi Float            guifg=#fff650
-  
-  " HTML Closing tags </...> 
+
+  " HTML Closing tags </...>
   " Vim variables
   hi Identifier       guifg=#29a3ac                   gui=none
   " HTML Starting tags <...>
@@ -45,7 +45,7 @@ if &background == "dark"
   hi Label            guifg=#409a50                   gui=bold
   " operator cpp: sizeof()
   hi Operator         guifg=#658aa5 guibg=NONE      gui=none
-  "html: special keywords in jscript: window log 
+  "html: special keywords in jscript: window log
   hi Keyword	      guifg=#adffdd                   gui=none
   hi Exception        guifg=#2080c0 guibg=NONE      gui=bold
 
@@ -64,10 +64,10 @@ if &background == "dark"
   " py:  self __name__ Error Exception   and is not
   hi Structure        guifg=#557a95 gui=none
   " cpp: static cast
-  hi Typedef          guifg=#55aa85              
+  hi Typedef          guifg=#55aa85
 
   hi Special	      guifg=#e7f6da gui=none
-  hi SpecialChar      guifg=#6a96ff               
+  hi SpecialChar      guifg=#6a96ff
   hi SpecialKey	      guifg=#d6f3d8 guibg=#343434 gui=bold
 
   hi Tag              guifg=#00c0ff               gui=bold
@@ -79,7 +79,7 @@ if &background == "dark"
   hi Underlined       guifg=#b5b5b5 guibg=NONE    gui=underline
 
   " Misc syntax ###############################################################
-  
+
   hi Todo             guifg=#fff63f guibg=#736a3f gui=bold
 
   hi Directory        guifg=#b5b5b5 guibg=NONE    gui=bold
@@ -95,7 +95,7 @@ if &background == "dark"
   hi SpellRare        guisp=#eeeeee gui=undercurl
 
   " User interface ############################################################
-  
+
   hi Search           guifg=#000000 guibg=#b8ea00 gui=bold
   hi IncSearch        guifg=#f8cf00 guibg=#000000
 
@@ -105,9 +105,9 @@ if &background == "dark"
   hi WildMenu         guifg=#000000 guibg=#A6DB29 gui=none
   hi Question         guifg=#000000 guibg=#A6DB29 gui=none
   hi MoreMsg          guifg=#000000 guibg=#A6DB29 gui=none
-  hi ModeMsg          guifg=#000000 guibg=#A6DB29   
+  hi ModeMsg          guifg=#000000 guibg=#A6DB29
 
-  hi Cursor           guibg=#d80000 guifg=#ffffff 
+  hi Cursor           guibg=#d80000 guifg=#ffffff
   hi CursorLineNr     guifg=#d0d0d0 guibg=#482020 gui=bold
   hi CursorLine       guibg=#4a4a4c
   hi CursorColumn     guibg=#4a4a4c
@@ -134,13 +134,13 @@ if &background == "dark"
 
   hi VertSplit        guifg=#222222 guibg=#2b2b2b gui=none
   hi Title            guifg=#d0d0d0 guibg=NONE    gui=bold
-  
+
   hi TabLine          guifg=#afd700 guibg=#005f00 gui=none
   hi TabLineSel       guifg=#005f00 guibg=#afd700 gui=none
   hi TabLineFill      guifg=#303030 guibg=#a0a0a0 gui=none
 
   " Language Specific ##########################################################
-  
+
   " Python (non-default syntax file)
   hi PythonOperator      guifg=#7aa6c2 gui=none
   hi Docstring        guifg=#6a7a8d    guibg=NONE gui=none
@@ -163,7 +163,7 @@ if &background == "dark"
   hi markdownUrl guifg=#0087ff gui=underline ctermfg=33 cterm=underline
 
   " Plugins ####################################################################
-  
+
   " https://github.com/kien/ctrlp.vim
   hi CtrlPMatch       guifg=#000000 guibg=#f8cf00 gui=none
 
@@ -302,7 +302,7 @@ if &background == "dark"
     hi DjangoBlock ctermfg=35 cterm=none
     hi CtrlPMatch ctermbg=220 ctermfg=16
     " for the reason behind this, see
-    " https://github.com/tomasr/molokai/issues/22 
+    " https://github.com/tomasr/molokai/issues/22
     set background=dark
   endif
 else
@@ -365,17 +365,17 @@ else
   " Misc syntax ###############################################################
   "
   hi Todo             guifg=#000000 guibg=#ffff00 gui=bold
- 
+
   hi Directory        guifg=#0060a0 guibg=NONE    gui=bold
-  " html: special keywords in jscript: window log 
+  " html: special keywords in jscript: window log
   hi Keyword          guifg=#66b600               gui=none
   hi Title            guifg=#1060a0 guibg=NONE    gui=bold
   hi NonText          guifg=#000000 guibg=#e6e6e6 gui=none
- 
+
   hi Conceal          guifg=#303030 guibg=#e0e8e0
 
-  hi DiffAdd                        guibg=#ddffdd 
-  hi DiffChange                     guibg=#e8e8e8 
+  hi DiffAdd                        guibg=#ddffdd
+  hi DiffChange                     guibg=#e8e8e8
   hi DiffText         guifg=#000055 guibg=#ddddff
   hi DiffDelete       guifg=#eecccc guibg=#ffdddd
 
@@ -427,7 +427,7 @@ else
 
 
   " Language Specific ##########################################################
-  
+
   " Python (non-default syntax file)
   hi PythonOperator   guifg=#0167dd               gui=none
   hi Docstring        guifg=#004B84 guibg=NONE    gui=none
@@ -446,15 +446,15 @@ else
   hi DjangoBlock      guifg=#005f00               gui=bold
   hi link djangoTagBlock DjangoBlock
   hi link djangoVarBlock DjangoBlock
-  hi link djangoFilter   Typedef          
+  hi link djangoFilter   Typedef
 
   hi markdownUrl guifg=#005faf gui=underline ctermfg=25 cterm=underline
 
   " Plugins ####################################################################
-  
+
   " https://github.com/kien/ctrlp.vim
   hi link CtrlPMatch    Search
- 
+
   " https://github.com/scrooloose/nerdtree
   hi NERDTreeDir  guifg=#0087d7 gui=bold ctermfg=32 cterm=bold
   hi link NERDTreeDirSlash NERDTreeDir
@@ -470,7 +470,7 @@ else
   hi TagbarScope guifg=#0087d7 gui=bold ctermfg=32 cterm=bold
   hi TagbarType guifg=#66b600 gui=bold ctermfg=70 cterm=bold
   hi TagbarKind guifg=#0000ff ctermfg=21
-  
+
   " https://github.com/justinmk/vim-sneak
   hi SneakPluginTarget guibg=#ffaf00 guifg=#ffff00 gui=bold ctermbg=214 ctermfg=226 cterm=bold
   hi link SneakPluginScope Visual
@@ -481,7 +481,7 @@ else
   " https://github.com/mhinz/vim-startify
   hi StartifyBracket guifg=#00d7ff  guibg=#005f87 gui=bold ctermfg=45 ctermbg=24 cterm=bold
   hi StartifyFile guifg=#005fd7 ctermfg=26
-  hi StartifyHeader guifg=#005fd7 ctermfg=26 
+  hi StartifyHeader guifg=#005fd7 ctermfg=26
   hi link StartifyFooter StartifyHeader
   hi StartifyNumber ctermfg=215 guifg=#00ff00  guibg=#005f87 gui=bold ctermfg=46 ctermbg=24 cterm=bold
   hi StartifyPath guifg=#878787 ctermfg=242
@@ -491,7 +491,7 @@ else
   " https://github.com/davidhalter/jedi-vim
   hi jediFunction guibg=#878787 guifg=#f0f0f0 ctermbg=244 ctermfg=255
   hi jediFat guibg=#878787 guifg=#afd700 gui=bold ctermbg=244 ctermfg=148 cterm=bold
-  
+
   " https://github.com/tomtom/quickfixsigns_vim
   if g:kalisi_recolor_quickfixsigns == 1
        hi QFSignsMark guifg=#005faf guibg=#a0a0a0 gui=bold ctermfg=25 ctermbg=247 cterm=bold
@@ -577,7 +577,7 @@ else
     hi WarningMsg cterm=bold ctermfg=160
     hi TabLine ctermbg=22 ctermfg=148 cterm=none
     hi TabLineSel ctermbg=148 ctermfg=22 cterm=none
-    hi TabLineFill ctermbg=247 ctermfg=236 cterm=none 
+    hi TabLineFill ctermbg=247 ctermfg=236 cterm=none
     hi SignColumn ctermbg=251 ctermfg=148
     hi Pmenu ctermbg=254 ctermfg=16
     hi PmenuSel cterm=bold ctermbg=148 ctermfg=16
@@ -589,4 +589,4 @@ else
     hi javaScript ctermfg=59
     hi DjangoBlock cterm=bold ctermfg=22
   endif
-endif 
+endif
