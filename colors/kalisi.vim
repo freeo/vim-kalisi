@@ -20,17 +20,17 @@ if &background == "dark"
   hi clear
   let g:colors_name = "kalisi"
 
-  hi Normal 	      guifg=#b5b5b5 guibg=#404042  gui=none
+  hi Normal           guifg=#b5b5b5 guibg=#404042  gui=none
 
-  hi Comment 	      guifg=#797772
+  hi Comment          guifg=#797772
   hi CommentURL       guifg=#6090c0 guibg=NONE     gui=underline
   hi CommentEmail     guifg=#6090c0 guibg=NONE     gui=underline
 
-  hi Constant 	      guifg=#94be54                   gui=bold
-  hi String 	      guifg=#ffc63f
+  hi Constant         guifg=#94be54                   gui=bold
+  hi String           guifg=#ffc63f
   hi Character        guifg=#c85bff
   hi Number           guifg=#ffad3f
-  hi Boolean 	      guifg=#94be54
+  hi Boolean          guifg=#94be54
   hi Float            guifg=#fff650
 
   " HTML Closing tags </...>
@@ -39,18 +39,18 @@ if &background == "dark"
   " HTML Starting tags <...>
   hi Function         guifg=#7ad6ff                   gui=none
 
-  hi Statement 	      guifg=#94be54                   gui=bold
+  hi Statement        guifg=#94be54                   gui=bold
   hi Conditional      guifg=#7aa6c2                   gui=bold
   hi Repeat           guifg=#7aa6c2 guibg=NONE      gui=bold
   hi Label            guifg=#409a50                   gui=bold
   " operator cpp: sizeof()
   hi Operator         guifg=#658aa5 guibg=NONE      gui=none
   "html: special keywords in jscript: window log
-  hi Keyword	      guifg=#adffdd                   gui=none
+  hi Keyword          guifg=#adffdd                   gui=none
   hi Exception        guifg=#2080c0 guibg=NONE      gui=bold
 
-  hi PreProc 	      guifg=#2288ee                   gui=bold
-  hi Include 	      guifg=#2288ee                   gui=bold
+  hi PreProc          guifg=#2288ee                   gui=bold
+  hi Include          guifg=#2288ee                   gui=bold
   hi Define           guifg=#2288ee                   gui=bold
   hi Macro            guifg=#a68ad2                   gui=none
   hi PreCondit        guifg=#7aa6c2                   gui=none
@@ -66,9 +66,9 @@ if &background == "dark"
   " cpp: static cast
   hi Typedef          guifg=#55aa85
 
-  hi Special	      guifg=#e7f6da gui=none
+  hi Special          guifg=#e7f6da gui=none
   hi SpecialChar      guifg=#6a96ff
-  hi SpecialKey	      guifg=#d6f3d8 guibg=#343434 gui=bold
+  hi SpecialKey       guifg=#d6f3d8 guibg=#343434 gui=bold
 
   hi Tag              guifg=#00c0ff               gui=bold
   hi Delimiter        guifg=#7a9acd guibg=NONE    gui=none
@@ -116,19 +116,19 @@ if &background == "dark"
   hi Visual           guibg=#3a4d6e               gui=none
   hi VisualNOS                      guibg=#4a4d4e gui=none
 
-  hi Pmenu 	      guifg=#b5b5b5 guibg=#303032
+  hi Pmenu            guifg=#b5b5b5 guibg=#303032
   hi PmenuSel         guifg=#222222 guibg=#A6DB29 gui=none
   hi PmenuSbar                      guibg=#a0a0a0
   hi PmenuThumb                     guibg=#555555
 
   hi SignColumn       guifg=#A6E22E guibg=#303032
   hi FoldColumn       guifg=#b0b8c0 guibg=#373d43 gui=bold
-  hi Folded 	      guifg=#727780 guibg=#373d43 gui=none
+  hi Folded           guifg=#727780 guibg=#373d43 gui=none
 
   hi NonText          guifg=#958b7f guibg=#3a3a3a gui=none
   hi Conceal          guifg=#f6f3e8 guibg=#303030
 
-  hi LineNr 	      guifg=#857b6f guibg=#303032 gui=none
+  hi LineNr           guifg=#857b6f guibg=#303032 gui=none
   hi StatusLine       guifg=#b5b5b5 guibg=#222222 gui=none term=NONE cterm=NONE
   hi StatusLineNC     guifg=#857b6f guibg=#303032 gui=none
 
