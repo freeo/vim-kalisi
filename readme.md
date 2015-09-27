@@ -1,16 +1,17 @@
 Vim Colorscheme: kalisi
 =========================
-The colorscheme with *neovim* in mind.
+Version 0.8
+
+The colorscheme with [*neovim*](https://github.com/neovim/neovim) in mind.
 
 Main features:
 
 * Dark Theme
 * Light Theme
-* 256 color terminal support      **NEW**
-* Several plugins supported
+* 256 color terminal support
+* Support for several plugins
 
-Currently in its 6th iteration (version: 0.7), specifically refined for contesting as the *default* colorscheme for the **neovim** project.
-Both included colorschemes (light/dark) are *optimized* for the following languages for now:
+Optimized for the following languages:
 
 * C/C++
 * HTML (+ Django, JavaScript)
@@ -20,42 +21,43 @@ Both included colorschemes (light/dark) are *optimized* for the following langua
 
 Screenshots
 ===========
-<sub>(font: Liberation Mono 10pt)</sub>
+<sub>Font: Liberation Mono 10pt</sub>
 
 The airline theme is named *kalisi* as well and already included in bling/vim-airline. Just add this to your vimrc, if you like the airline theme displayed in the screenshots:
 
     let g:airline_theme='kalisi'
 
-## Dark Kalisi
+## Dark Kalisi v0.8
 
 ### Python
-![screenshot](http://i.imgur.com/HI62CaB.png)
+![screenshot](http://i.imgur.com/QdAuC4q.png)
 
 ### Vim
-![screenshot](http://i.imgur.com/GscTOvy.png)
+![screenshot](http://i.imgur.com/1zFSerN.png)
 
 ### C/C++
-![screenshot](http://i.imgur.com/NYXywVP.png)
+![screenshot](http://i.imgur.com/g9wxYfN.png)
 
 ###  HTML
 
 #### Django
-![screenshot](http://i.imgur.com/vOcHmsr.png)
+![screenshot](http://i.imgur.com/REj23Ik.png)
 
 #### JavaScript (embedded)
-![screenshot](http://i.imgur.com/Nq0Lh5p.png)
+![screenshot](http://i.imgur.com/a0pQ1fC.png)
 
 ### diff
-![screenshot](http://i.imgur.com/xHMOr8B.png)
+![screenshot](http://i.imgur.com/J1pJ6ml.png)
 
 ### syntax.txt
-![screenshot](http://i.imgur.com/Zs4vSng.png)
-![screenshot](http://i.imgur.com/Psiyz6x.jpg)
+![screenshot](http://i.imgur.com/jBZe98W.png)
+![screenshot](http://i.imgur.com/WLEGbOB.png)
 
 
 
 
-## Light Kalisi
+## Light Kalisi v0.7
+No new screenshots, because changes almost invisible in the grand scale, see the change log.
 
 ### Python
 ![screenshot](http://i.imgur.com/2ZShtop.png)
