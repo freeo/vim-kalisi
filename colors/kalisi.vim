@@ -598,7 +598,7 @@ else
     hi LineNr ctermbg=253 ctermfg=242
     hi StatusLine ctermfg=254 ctermbg=242 term=NONE cterm=NONE
     hi StatusLineNC ctermbg=247 ctermfg=254 term=NONE cterm=NONE
-    hi VertSplit ctermbg=247 ctermfg=247
+    hi VertSplit ctermbg=250 ctermfg=248
     hi Folded ctermbg=254 ctermfg=242
     hi FoldColumn cterm=bold ctermbg=145 ctermfg=242
     hi WildMenu ctermbg=148 ctermfg=16
