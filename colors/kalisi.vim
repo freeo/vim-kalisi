@@ -234,6 +234,7 @@ if &background == "dark"
     hi Normal ctermbg=238 ctermfg=252
     hi CursorLine ctermbg=239 term=none cterm=none
     hi CursorColumn ctermbg=239
+    hi ColorColumn ctermbg=239
     hi NonText ctermbg=238 ctermfg=243
     hi Conceal ctermbg=237 ctermfg=230
     hi Comment ctermfg=245
@@ -590,6 +591,7 @@ else
     hi CursorLineNr cterm=bold ctermbg=251 ctermfg=254
     hi CursorLine ctermbg=254 cterm=none
     hi CursorColumn ctermbg=254
+    hi ColorColumn ctermbg=254
     hi MatchParen ctermbg=221 ctermfg=231
     hi Search cterm=bold ctermbg=148 ctermfg=16
     hi IncSearch cterm=reverse ctermbg=16 ctermfg=220
