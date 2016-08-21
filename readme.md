@@ -102,6 +102,14 @@ No new screenshots, because changes almost invisible in the grand scale, see the
 
 3. Restart Vim
 
+### Pathogen
+
+1. Run this command from your terminal
+
+        cd ~/.vim/bundle
+        git clone https://github.com/freeo/vim-kalisi
+
+2. Set in vimrc as above and restart Vim
 
 ## 256 color terminal
 
