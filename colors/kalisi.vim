@@ -68,7 +68,7 @@ if &background == "dark"
 
   hi Special	        guifg=#e7f6da gui=none
   hi SpecialChar      guifg=#6a96ff
-  hi SpecialKey	      guifg=#767676 guibg=#3a3a3a ctermbg=243 ctermfg=237
+  hi SpecialKey	      guifg=#767676 guibg=#3a3a3a ctermbg=238 ctermfg=243
 
   hi Tag              guifg=#00c0ff               gui=bold
   hi Delimiter        guifg=#7a9acd guibg=NONE    gui=none
@@ -234,7 +234,8 @@ if &background == "dark"
     hi Normal ctermbg=238 ctermfg=252
     hi CursorLine ctermbg=239 term=none cterm=none
     hi CursorColumn ctermbg=239
-    hi NonText ctermbg=237 ctermfg=102
+    hi ColorColumn ctermbg=239
+    hi NonText ctermbg=238 ctermfg=243
     hi Conceal ctermbg=237 ctermfg=230
     hi Comment ctermfg=245
     hi CommentURL cterm=underline ctermfg=68
@@ -366,7 +367,7 @@ else
 
   hi Special          guifg=#ffaf00 guibg=NONE    gui=bold
   hi SpecialChar      guifg=#F92672               gui=bold
-  hi SpecialKey       guifg=#9e9e9e guibg=#e4e4e4 ctermfg=247 ctermbg=254
+  hi SpecialKey       guifg=#9e9e9e guibg=#e4e4e4 ctermfg=247 ctermbg=255
   hi Tag              guifg=#0010ff               gui=bold
   hi Delimiter        guifg=#d80050 guibg=NONE    gui=none
   hi Debug            guifg=#ddb800 guibg=NONE    gui=bold
@@ -574,7 +575,7 @@ else
     hi Directory cterm=bold ctermfg=25
     hi Keyword ctermfg=70
     hi Title cterm=bold ctermfg=25
-    hi NonText ctermbg=253 ctermfg=16
+    hi NonText ctermbg=255 ctermfg=251
     hi Conceal ctermbg=253 ctermfg=236
     hi DiffAdd ctermbg=194
     hi DiffChange ctermbg=254
@@ -590,13 +591,14 @@ else
     hi CursorLineNr cterm=bold ctermbg=251 ctermfg=254
     hi CursorLine ctermbg=254 cterm=none
     hi CursorColumn ctermbg=254
+    hi ColorColumn ctermbg=254
     hi MatchParen ctermbg=221 ctermfg=231
     hi Search cterm=bold ctermbg=148 ctermfg=16
     hi IncSearch cterm=reverse ctermbg=16 ctermfg=220
     hi LineNr ctermbg=253 ctermfg=242
     hi StatusLine ctermfg=254 ctermbg=242 term=NONE cterm=NONE
     hi StatusLineNC ctermbg=247 ctermfg=254 term=NONE cterm=NONE
-    hi VertSplit ctermbg=247 ctermfg=247
+    hi VertSplit ctermbg=250 ctermfg=248
     hi Folded ctermbg=254 ctermfg=242
     hi FoldColumn cterm=bold ctermbg=145 ctermfg=242
     hi WildMenu ctermbg=148 ctermfg=16
