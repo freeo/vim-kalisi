@@ -10,6 +10,9 @@
 "
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 
+" TODO
+" add GitGutter* to all schemes
+
 " Settings
 if !exists('g:kalisi_recolor_quickfixsigns')
   let g:kalisi_recolor_quickfixsigns = 1
@@ -108,6 +111,8 @@ if &background == "dark"
   hi ModeMsg          guifg=#000000 guibg=#A6DB29
 
   hi Cursor           guibg=#d80000 guifg=#ffffff
+  hi lCursor          guibg=#d80000 guifg=#ffffff
+  hi TermCursor       guibg=#d80000 guifg=#ffffff cterm=NONE
   hi CursorLineNr     guifg=#d0d0d0 guibg=#482020 gui=bold
   hi CursorLine       guibg=#4a4a4c
   hi CursorColumn     guibg=#4a4a4c
@@ -280,7 +285,7 @@ if &background == "dark"
     hi SpellCap cterm=undercurl ctermfg=33 ctermbg=none
     hi SpellLocal cterm=undercurl ctermfg=51 ctermbg=none
     hi SpellRare cterm=undercurl ctermfg=205 ctermbg=none
-    hi Search cterm=bold ctermbg=148 ctermfg=16
+    hi Search ctermbg=148 ctermfg=16
     hi IncSearch cterm=reverse ctermbg=16 ctermfg=220
     hi Error cterm=underline ctermbg=52 ctermfg=217
     hi ErrorMsg cterm=bold ctermbg=88 ctermfg=224
@@ -290,6 +295,8 @@ if &background == "dark"
     hi MoreMsg ctermbg=148 ctermfg=16
     hi ModeMsg cterm=bold ctermbg=148 ctermfg=16
     hi Cursor ctermbg=160 ctermfg=231
+    hi lCursor ctermbg=160 ctermfg=231
+    hi TermCursor ctermbg=160 ctermfg=231
     hi CursorLineNr cterm=bold ctermbg=52 ctermfg=252
     hi MatchParen ctermbg=112 ctermfg=234
     hi Visual ctermbg=24
@@ -326,7 +333,8 @@ else
   hi clear
   let g:colors_name = "kalisi"
 
-  hi Normal           guifg=#000000 guibg=#f5f7f5 gui=NONE
+  " hi Normal           guifg=#000000 guibg=#f5f7f5 gui=NONE
+  hi Normal           guifg=#000000 guibg=#ffffff gui=NONE
 
   " Syntax ####################################################################
 
@@ -405,13 +413,15 @@ else
   hi VisualNOS                      guibg=#d8d8d8 gui=none
 
   hi Cursor           guifg=#ffffff guibg=#ff0000 gui=NONE
+  hi lCursor          guifg=#ffffff guibg=#ff0000 gui=NONE
+  hi TermCursor       guifg=#ffffff guibg=#ff0000 gui=NONE cterm=NONE
   hi CursorLineNr     guifg=#e0e0e0 guibg=#c9c4c4 gui=bold
   hi Cursorline                     guibg=#eaeaea
   hi CursorColumn                   guibg=#eaeaea
   hi MatchParen       guifg=#ffffff guibg=#ffd030 gui=none
 
-  hi Search           guifg=#000000 guibg=#b8ea00 gui=bold
-  hi IncSearch        guifg=#f8cf00 guibg=#000000
+  hi Search           guifg=#000000 guibg=#EAFF90 "EAFFB2 "EAFF91 "E4FF5E "b8ea00
+  hi IncSearch        guifg=#B8EA00 guibg=#000000 "fg f8cf00
 
   hi LineNr           guifg=#707070 guibg=#e0e0e0 gui=NONE
 
@@ -532,7 +542,33 @@ else
        let g:quickfixsigns#vcsdiff#highlight = {'DEL': 'QFSignsDiffDelete', 'ADD': 'QFSignsDiffAdd', 'CHANGE': 'QFSignsDiffChange'}
   endif
 
-  " 256 Color Terminal (light) ################################################
+  " CtrlP https://github.com/ctrlpvim/ctrlp.vim
+  hi link CtrlPBufferHid    Normal
+  hi link CtrlPBufferPath   Comment
+  hi CtrlPPrtBase           guibg=#afd700 guifg=#005f00 gui=bold
+  hi link CtrlPPrtCursor    Cursor
+  hi link CtrlPBufferNr     Function
+  hi link CtrlPBufferVis    Statement
+  hi link CtrlPMark         Cursor
+  hi link CtrlParrow1       Boolean
+  hi link CtrlParrow2       Float
+  hi link CtrlParrow3       Special
+  hi link CtrlPLinePre      Cursor
+  hi link CtrlPMatch        Search
+  hi link CtrlPBufferCur    Cursor
+  hi link CtrlPBufferCurMod Cursor
+  hi link CtrlPBufferHidMod Cursor
+  hi link CtrlPBufferInd    Cursor
+  hi link CtrlPBufferRegion Cursor
+  hi link CtrlPBufferVisMod Cursor
+
+  " https://github.com/airblade/vim-gitgutter
+  hi GitGutterAdd            guifg=#C9F0C4 guibg=#C9D5C4 gui=bold
+  hi GitGutterChange         guifg=#9EA2FF guibg=#C9C4E8 gui=bold
+  hi GitGutterDelete         guifg=#FF8787 guibg=#FFC4C4 gui=bold
+  hi GitGutterChangeDelete   guifg=#A968FF guibg=#E1BAE8 gui=bold
+
+  " 256 Color Terminal (light) ######...#######################################
   if &t_Co > 255
     hi Normal ctermbg=255 ctermfg=16
     hi Comment ctermfg=110
@@ -587,6 +623,8 @@ else
     hi Visual ctermbg=153
     hi VisualNOS ctermbg=253
     hi Cursor ctermbg=196 ctermfg=231
+    hi lCursor ctermbg=196 ctermfg=231
+    hi TermCursor ctermbg=196 ctermfg=231
     hi CursorLineNr cterm=bold ctermbg=251 ctermfg=254
     hi CursorLine ctermbg=254 cterm=none
     hi CursorColumn ctermbg=254
@@ -618,4 +656,4 @@ else
     hi javaScript ctermfg=59
     hi DjangoBlock cterm=bold ctermfg=22
   endif
-endif 
+endif
