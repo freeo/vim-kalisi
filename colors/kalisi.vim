@@ -25,6 +25,7 @@ if &background == "dark"
 
   hi Normal 	        guifg=#d0d0d0 guibg=#404042  gui=none
 
+
   hi Comment 	        guifg=#8a8a8a
   hi CommentURL       guifg=#6090c0 guibg=NONE     gui=underline
   hi CommentEmail     guifg=#6090c0 guibg=NONE     gui=underline
@@ -234,6 +235,13 @@ if &background == "dark"
      let g:quickfixsigns#vcsdiff#highlight = {'DEL': 'QFSignsDiffDelete', 'ADD': 'QFSignsDiffAdd', 'CHANGE': 'QFSignsDiffChange'}
   endif
 
+  if !empty($SUDO_USER)
+    hi Normal         guifg=#d0d0d0 guibg=#483838
+    hi Comment        guifg=#9a7a7a
+    hi Whitespace     guifg=#c0c0c0 guibg=#504040
+    hi NonText        guifg=#958b7f guibg=#403232
+  endif
+
   " 256 Color Terminal (dark) ##################################################
   if &t_Co > 255
     hi Normal ctermbg=238 ctermfg=252
@@ -336,9 +344,11 @@ else
   " hi Normal           guifg=#000000 guibg=#f5f7f5 gui=NONE
   hi Normal           guifg=#000000 guibg=#ffffff gui=NONE
 
+
   " Syntax ####################################################################
 
   hi Comment          guifg=#70a0d0 guibg=NONE    gui=NONE
+
   hi CommentURL       guifg=#70a0ff guibg=NONE    gui=underline
   hi CommentEmail     guifg=#70a0ff guibg=NONE    gui=underline
   hi SpecialComment   guifg=#6090c0               gui=bold
@@ -393,7 +403,7 @@ else
   " html: special keywords in jscript: window log 
   hi Keyword          guifg=#66b600               gui=none
   hi Title            guifg=#1060a0 guibg=NONE    gui=bold
-  hi NonText          guifg=#000000 guibg=#e6e6e6 gui=none
+  hi NonText          guifg=#e0e0e0 guibg=#fafafa gui=none
  
   hi Conceal          guifg=#303030 guibg=#e0e8e0
 
@@ -567,6 +577,13 @@ else
   hi GitGutterChange         guifg=#9EA2FF guibg=#C9C4E8 gui=bold
   hi GitGutterDelete         guifg=#FF8787 guibg=#FFC4C4 gui=bold
   hi GitGutterChangeDelete   guifg=#A968FF guibg=#E1BAE8 gui=bold
+
+  if !empty($SUDO_USER)
+    hi Normal                       guibg=#ffe8e8
+    hi Comment        guifg=#c89090
+    hi Whitespace     guifg=#987070 guibg=#f8e0e0
+    hi NonText        guifg=#800000 guibg=#eddddd
+  endif
 
   " 256 Color Terminal (light) ######...#######################################
   if &t_Co > 255
